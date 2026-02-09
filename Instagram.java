@@ -1,14 +1,11 @@
-class InstagramLogin {
+class Instagram {
     public static void main(String[] args) {
+        loginUser("kallesh_sc", "insta@123");
+    }
 
-        String username = "kallesh_sc";
-        String password = "insta@123";
-        Boolean twoFactorEnabled = true;
-
-        System.out.println("Instagram Login Page");
-        System.out.println("Username: " + username);
+    static void loginUser(String userName, String password) {
+        System.out.println("Instagram Login");
+        System.out.println("Username: " + userName);
         System.out.println("Password: " + password);
-        System.out.println("Two-Factor Enabled: " + twoFactorEnabled);
     }
 }
-

@@ -1,18 +1,11 @@
-class Facebook{
+class Facebook {
     public static void main(String[] args) {
+        createAccount("Kallesh SC", "kallesh@gmail.com");
+    }
 
-        String fullName = "Kallesh SC";
-        String email = "kallesh@gmail.com";
-        String password = "fb@1234";
-        String birthDate = "01-02-1998";
-        String gender = "Male";
-
-        System.out.println("Facebook Account Creation Page");
-        System.out.println("Full Name: " + fullName);
+    static void createAccount(String name, String email) {
+        System.out.println("Facebook Account Creation");
+        System.out.println("Name: " + name);
         System.out.println("Email: " + email);
-        System.out.println("Password: " + password);
-        System.out.println("Birth Date: " + birthDate);
-        System.out.println("Gender: " + gender);
     }
 }
-
